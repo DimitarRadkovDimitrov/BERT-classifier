@@ -1,0 +1,13 @@
+{
+    "data": {
+        "num_classes": 2,
+        "seq_length": 65,
+        "output": "./data.bin"
+    },
+    "BERT": {
+        "static": false,
+        "batch_size": 32,
+        "num_epochs": 3,
+        "hub_url": "https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/2"
+    }
+}
